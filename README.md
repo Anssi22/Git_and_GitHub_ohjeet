@@ -6,6 +6,8 @@
 
 ### 1.1 Versiohallinta
 
+![Fun GIF](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
+
 Versiohallinta on menetelmä, jolla säilötään tietoa ja siihen tehtyjä muutoksia. Tärkeimmät syyt sen käyttöön ovat:
 
     Varmuuskopiointi: Kaikki muutokset tallennetaan.
