@@ -1,14 +1,15 @@
 # Git_and_GitHub_ohjeet
-Git ja GitHub ohjeet
 
-Versiohallinta
+# 1. Yleistä
+
+### 1.1 Versiohallinta
 
 Versiohallinta on menetelmä, jolla säilötään tietoa ja siihen tehtyjä muutoksia. Tärkeimmät syyt sen käyttöön ovat:
 
     Varmuuskopiointi: Kaikki muutokset tallennetaan.
     Yhteistyö ja tiedonjako: Mahdollistaa työskentelyn samassa projektissa eri laitteilla ja käyttäjien välillä.
 
-Git
+### 1.2 Git
 
 Git on hajautettu versiohallintajärjestelmä, jonka Linus Torvalds kehitti. Se säilyttää tietoja ja pitää kirjaa muutoksista, mahdollistaen yhteistyön ja versionhallinnan.
 
@@ -18,7 +19,7 @@ Git koostuu kolmesta osasta:
     Indeksi: Muutosten välitallennuspaikka.
     Paikallinen repositorio: Kaikki versiot tallennettuna.
 
-GitHub
+### 1.3 GitHub
 
 GitHub on pilvipalvelu, joka mahdollistaa Git-repositorioiden säilytyksen ja jakamisen. Se toimii myös varmuuskopiona tiedoille.
 
@@ -26,12 +27,12 @@ Peruskäyttö:
 
     Repositorioiden luominen ja hallinta paikallisesti ja pilvessä.
     Synkronointi paikallisen ja etärepositorion välillä:
-        Lähetys GitHubiin: git push
-        Tietojen hakeminen GitHubista: git pull
+    Lähetys GitHubiin: git push
+    Tietojen hakeminen GitHubista: git pull
 
-Git-komennot
+# 2. Git-komennot
 
-Yleiset komennot:
+### 2.1 Yleiset komennot:
 
     Repositorio käyttöön: git init
     Muutosten lisääminen: git add .
@@ -39,13 +40,13 @@ Yleiset komennot:
     Tilan tarkistus: git status
     Historian tarkistus: git log
 
-Branch (haarat):
+### 2.2 Branch (haarat):
 
     Uusi haara: git branch nimi
     Haaran yhdistäminen päähaaraan: git merge nimi
     Haaran poistaminen: git branch -d nimi
 
-Fork ja Upstream
+### 2.3 Fork ja Upstream
 
 Fork: Kopio toisen käyttäjän repositoriosta.
 Upstream: Alkuperäisen repositorion synkronointi paikalliseen hakemistoon:
@@ -54,3 +55,4 @@ Upstream: Alkuperäisen repositorion synkronointi paikalliseen hakemistoon:
     Synkronoi: git fetch upstream
 
 Tiivistäen, Git ja GitHub ovat olennaisia työkaluja yhteistyöskentelyyn ja varmuuskopiointiin ohjelmistokehityksessä.
+---
