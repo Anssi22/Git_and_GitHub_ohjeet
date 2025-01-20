@@ -2,11 +2,13 @@
 
 ![](GitHub_kuva.jpeg)
 
-# 1. Yleistä
+# :smile: 1. Yleistä :smile:
 
 ### 1.1 Versiohallinta
-
-![Fun GIF](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)
+<div>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXU3aWF6eWRuY3g3cXYyeTRvamc1bHBkam5pY2w0dGpmODQ4ZWJpNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZVik7pBtu9dNS/giphy.gif" alt="GIF 1" width="400">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjlzZjAzejcxcDFjdDhzZHc2d25udW83cmN1MnduaGJ3YzZudWt4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A06UFEx8jxEwU/giphy.gif" alt="GIF 2" width="400">
+</div>
 
 Versiohallinta on menetelmä, jolla säilötään tietoa ja siihen tehtyjä muutoksia. Tärkeimmät syyt sen käyttöön ovat:
 
@@ -22,6 +24,14 @@ Git koostuu kolmesta osasta:
     Työkansio: Varsinaiset tiedostot.
     Indeksi: Muutosten välitallennuspaikka.
     Paikallinen repositorio: Kaikki versiot tallennettuna.
+
+
+```mermaid
+graph TD;
+    A[Working Directory] --> B[Staging Area: git add]
+    B --> C[Repository: git commit]
+```
+
 
 ### 1.3 GitHub
 
@@ -39,7 +49,7 @@ Peruskäyttö:
 ### 2.1 Yleiset komennot:
 
     Repositorio käyttöön: git init
-    Muutosten lisääminen: git add .
+    Muutosten lisääminen: git add
     Commitin luominen: git commit -m "viesti"
     Tilan tarkistus: git status
     Historian tarkistus: git log
@@ -49,7 +59,27 @@ Peruskäyttö:
     Uusi haara: git branch nimi
     Haaran yhdistäminen päähaaraan: git merge nimi
     Haaran poistaminen: git branch -d nimi
+    
+Esimerkki haaroista:
 
+```mermaid
+gitGraph
+commit
+commit
+branch AnssinHaara
+checkout AnssinHaara
+commit
+checkout main
+branch MoonanHaara
+checkout MoonanHaara
+commit
+checkout main
+merge AnssinHaara
+commit
+merge MoonanHaara
+commit
+```
+    
 ### 2.3 Fork ja Upstream
 
 Fork: Kopio toisen käyttäjän repositoriosta.
@@ -61,3 +91,5 @@ Upstream: Alkuperäisen repositorion synkronointi paikalliseen hakemistoon:
 Tiivistäen, Git ja GitHub ovat olennaisia työkaluja yhteistyöskentelyyn ja varmuuskopiointiin ohjelmistokehityksessä.
 ---
 ![](koodaaja.jpg)
+
+
