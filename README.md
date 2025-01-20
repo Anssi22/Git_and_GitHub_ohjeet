@@ -1,5 +1,7 @@
 # Git_and_GitHub_ohjeet
 
+![](GitHub_kuva.jpeg)
+
 # 1. Yleistä
 
 ### 1.1 Versiohallinta
