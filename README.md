@@ -59,6 +59,5 @@ Upstream: Alkuperäisen repositorion synkronointi paikalliseen hakemistoon:
     Synkronoi: git fetch upstream
 
 Tiivistäen, Git ja GitHub ovat olennaisia työkaluja yhteistyöskentelyyn ja varmuuskopiointiin ohjelmistokehityksessä.
-![](koodaaja.jpeg)
 ---
-![](koodaaja.jpeg)
+![](koodaaja.jpg)
